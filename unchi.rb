@@ -1,5 +1,4 @@
 require 'twitter'
-require 'pp'
 
 twitter = Twitter::REST::Client.new do |config|
     config.consumer_key        = ""
