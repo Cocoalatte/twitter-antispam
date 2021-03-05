@@ -14,5 +14,5 @@ twitter.follower_ids(twitter.users(ARGV[0])).each do |uids|
     puts "Blocked:".concat(uids)
     cnt = cnt + 1
 end
-#トドメ
+#トドメ(当該をブロック
 twitter.block(twitter.users(ARGV[0]))
